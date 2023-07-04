@@ -1,0 +1,8 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-root-class-name {
+  align-self: center;
+  margin-left: 50px;
+}
