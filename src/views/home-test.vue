@@ -1,0 +1,45 @@
+<template>
+  <div class="home-test-container">
+    <button type="button" class="home-test-button button">Button</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HomeTest',
+  metaInfo: {
+    title: 'HomeTest - Idle Neat Tiger',
+    meta: [
+      {
+        property: 'og:title',
+        content: 'HomeTest - Idle Neat Tiger',
+      },
+    ],
+  },
+}
+</script>
+
+<style scoped>
+.home-test-container {
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  min-height: 100vh;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #D9D9D9;
+}
+.home-test-button {
+  width: 337px;
+  height: 117px;
+  text-align: left;
+  background-color: rgb(35, 183, 81);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: 20px;
+}
+</style>
